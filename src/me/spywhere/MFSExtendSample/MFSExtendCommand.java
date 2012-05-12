@@ -28,6 +28,7 @@ public class MFSExtendCommand {
 	@Command(aliases={"cart"}, usage="<cart>", desc="Simple cart system", min=1, max=5)
 	public void cart(CommandContext args, CommandSource sender) throws CommandException {
 		if(args.length()==1){
+			//Add field demo
 			if(args.getString(0).equalsIgnoreCase("demo")){
 				Database db=plugin.mfs.getDB("Shop");
 				if(db!=null){
@@ -42,6 +43,7 @@ public class MFSExtendCommand {
 				sender.sendMessage(ChatColor.BRIGHT_GREEN+"Failed");
 				return;
 			}
+			//Remove field demo
 			if(args.getString(0).equalsIgnoreCase("demo2")){
 				Database db=plugin.mfs.getDB("Shop");
 				if(db!=null){
