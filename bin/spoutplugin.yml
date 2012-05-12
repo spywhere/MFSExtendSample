@@ -1,0 +1,6 @@
+name: MFSExtendSample
+main: me.spywhere.MFSExtendSample.MFSExtendSample
+version: 0.1
+platform: SERVER
+description: >
+    MySQL/FlatFile Storage library sample plugin

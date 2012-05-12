@@ -1,0 +1,14 @@
+
+.classpath
+
+.project
+
+.settings/org.eclipse.jdt.core.prefs
+
+bin/me/spywhere/MFSExtendSample/MFSExtendCommand.class
+
+bin/me/spywhere/MFSExtendSample/MFSExtendConnector$Mirror.class
+
+bin/me/spywhere/MFSExtendSample/MFSExtendConnector.class
+
+bin/me/spywhere/MFSExtendSample/MFSExtendSample.class
